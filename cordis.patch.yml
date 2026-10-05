@@ -1,0 +1,11 @@
+# dsh-memory-guardian bundle layer.
+- insert:
+    - id: memory-guardian
+      name: dsh-memory-guardian
+      config:
+        maxRecords: 10000
+        maxRecallItems: 8
+        maxRecallChars: 6000
+        captureExplicitRequests: true
+        quarantinePersonalData: true
+
